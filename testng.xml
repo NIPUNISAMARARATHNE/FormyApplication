@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="E:/LearnJava2023/test 2023.11.04/FormyApplication">
+        <classes>
+<!--            <class name="Com.test.AutoComplete">-->
+<!--                <methods>-->
+<!--                    <include name="fillForm"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+            <class name="Com.test.KeyAndMouse">
+                <methods>
+                    <include name="KeyAndMousePress"/>
+                </methods>
+            </class>
+            <class name="Com.test.ScrollPage">
+                <methods>
+                    <include name="scrollPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
